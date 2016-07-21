@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal"
+	android:background="@drawable/background">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="15dip" android:paddingBottom="15dip"
+		android:gravity="center_horizontal">
+
+		<ImageView android:id="@+id/logo" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/logo2" />
+
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:id="@+id/group1">
+			
+			<TextView
+			    android:id="@+id/question"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="Choose Diffciulty Settings:"
+			    android:textColor="#0000A0"
+			    android:textStyle="bold" />
+			
+			<RadioButton
+			    android:id="@+id/easySetting"
+			    android:layout_height="30dp"
+			    android:checked="false"
+			    android:text="Easy"
+			    android:textColor="#0000A0" />
+			
+			<RadioButton
+			    android:id="@+id/mediumSetting"
+			    android:layout_height="28dp"
+			    android:checked="false"
+			    android:text="Medium"
+			    android:textColor="#0000A0" />
+			
+			<RadioButton
+			    android:id="@+id/hardSetting"
+			    android:layout_height="28dp"
+			    android:checked="false"
+			    android:text="Hard"
+			    android:textColor="#0000A0" />
+			
+		</RadioGroup>
+
+	</LinearLayout>
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<RadioGroup
+		    android:id="@+id/group2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+			
+			<TextView
+			    android:id="@+id/question"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="Choose Category Settings:"
+			    android:textColor="#0000A0"
+			    android:textStyle="bold" />
+			
+			<RadioButton
+			    android:id="@+id/General"
+			    android:layout_height="30dp"
+			    android:checked="false"
+			    android:text="General Knowledge"
+			    android:textColor="#0000A0" />
+			
+			<RadioButton
+			    android:id="@+id/Geography"
+			    android:layout_height="28dp"
+			    android:checked="false"
+			    android:text="Geography"
+			    android:textColor="#0000A0" />
+			
+			<RadioButton
+			    android:id="@+id/Culture"
+			    android:layout_height="28dp"
+			    android:checked="false"
+			    android:text="Culture"
+			    android:textColor="#0000A0" />
+			
+		</RadioGroup>
+
+	</LinearLayout>
+	
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/nextBtn"
+	    android:layout_width="240dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/button_selector"
+	    android:paddingBottom="5dip"
+	    android:paddingTop="5dip"
+	    android:text="Update"
+	    android:textColor="#ffffff" />
+
+</LinearLayout>

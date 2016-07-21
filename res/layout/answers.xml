@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"	
+	android:layout_height="fill_parent">
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/background"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+	
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#ffffff"
+				android:textStyle="bold" android:id="@+id/answers"
+				android:paddingLeft="15dip" android:paddingRight="15dip"
+				android:gravity="center_horizontal"/>
+	
+		</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_horizontal"
+			    android:orientation="horizontal"
+			    android:paddingBottom="5dip"
+			    android:paddingTop="5dip" >
+
+			    <Button
+			        android:id="@+id/finishBtn"
+			        android:layout_width="240dp"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:background="@drawable/button_selector"
+			        android:paddingBottom="5dip"
+			        android:paddingTop="5dip"
+			        android:text="Back"
+			        android:textColor="#ffffff" />
+			</LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>
